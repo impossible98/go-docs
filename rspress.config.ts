@@ -37,6 +37,10 @@ export default defineConfig({
                   text: 'Imports',
                   link: '/basics/imports',
                 },
+                {
+                  text: 'Exported names',
+                  link: '/basics/exported-names',
+                },
               ],
             },
           ],
