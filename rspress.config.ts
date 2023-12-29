@@ -53,6 +53,11 @@ export default defineConfig({
                   text: 'Multiple results',
                   link: '/basics/multiple-results',
                 },
+
+                {
+                  text: 'Named return values',
+                  link: '/basics/named-return-values',
+                },
               ],
             },
           ],
