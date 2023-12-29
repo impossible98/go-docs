@@ -23,6 +23,20 @@ export default defineConfig({
           text: 'Intro',
           link: '/intro',
         },
+        {
+          text: 'Basics',
+          items: [
+            {
+              text: 'Packages, variables, and functions.',
+              items: [
+                {
+                  text: 'Packages',
+                  link: '/basics/packages',
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
