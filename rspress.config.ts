@@ -33,6 +33,10 @@ export default defineConfig({
                   text: 'Packages',
                   link: '/basics/packages',
                 },
+                {
+                  text: 'Imports',
+                  link: '/basics/imports',
+                },
               ],
             },
           ],
