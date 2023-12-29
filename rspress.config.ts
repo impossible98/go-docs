@@ -49,6 +49,10 @@ export default defineConfig({
                   text: 'Functions continued',
                   link: '/basics/functions-continued',
                 },
+                {
+                  text: 'Multiple results',
+                  link: '/basics/multiple-results',
+                },
               ],
             },
           ],
