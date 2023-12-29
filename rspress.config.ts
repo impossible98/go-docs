@@ -17,6 +17,10 @@ export default defineConfig({
           text: 'What is Go?',
           link: '/index',
         },
+        {
+          text: 'Intro',
+          link: '/intro',
+        },
       ],
     },
     socialLinks: [
