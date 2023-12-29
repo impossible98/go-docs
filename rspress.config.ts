@@ -58,6 +58,10 @@ export default defineConfig({
                   text: 'Named return values',
                   link: '/basics/named-return-values',
                 },
+                {
+                  text: 'Variables',
+                  link: '/basics/variables',
+                },
               ],
             },
           ],
