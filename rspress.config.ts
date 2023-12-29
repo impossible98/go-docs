@@ -62,6 +62,10 @@ export default defineConfig({
                   text: 'Variables',
                   link: '/basics/variables',
                 },
+                {
+                  text: 'Variables with initializers',
+                  link: '/basics/variables-with-initializers',
+                },
               ],
             },
           ],
