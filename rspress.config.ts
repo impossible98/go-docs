@@ -11,6 +11,14 @@ export default defineConfig({
     dark: '/rspress-dark-logo.png',
   },
   themeConfig: {
+    sidebar: {
+      '/': [
+        {
+          text: 'What is Go?',
+          link: '/index',
+        },
+      ],
+    },
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
     ],
