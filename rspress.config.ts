@@ -41,6 +41,10 @@ export default defineConfig({
                   text: 'Exported names',
                   link: '/basics/exported-names',
                 },
+                {
+                  text: 'Functions',
+                  link: '/basics/functions',
+                },
               ],
             },
           ],
