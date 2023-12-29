@@ -45,6 +45,10 @@ export default defineConfig({
                   text: 'Functions',
                   link: '/basics/functions',
                 },
+                {
+                  text: 'Functions continued',
+                  link: '/basics/functions-continued',
+                },
               ],
             },
           ],
