@@ -78,6 +78,10 @@ export default defineConfig({
                   text: 'Zero values',
                   link: '/basics/zero-values',
                 },
+                {
+                  text: 'Type conversions',
+                  link: '/basics/type-conversions',
+                },
               ],
             },
           ],
