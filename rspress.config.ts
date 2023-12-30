@@ -153,6 +153,103 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: 'More types: structs, slices, and maps',
+              items: [
+                {
+                  text: 'Pointers',
+                  link: '/basics/pointers',
+                },
+                {
+                  text: 'Structs',
+                  link: '/basics/structs',
+                },
+                {
+                  text: 'Struct Fields',
+                  link: '/basics/struct-fields',
+                },
+                {
+                  text: 'Pointers to structs',
+                  link: '/basics/pointers-to-structs',
+                },
+                {
+                  text: 'Struct Literals',
+                  link: '/basics/struct-literals',
+                },
+                {
+                  text: 'Arrays',
+                  link: '/basics/arrays',
+                },
+                {
+                  text: 'Slices',
+                  link: '/basics/slices',
+                },
+                {
+                  text: 'Slices are like references to arrays',
+                  link: '/basics/slices-are-like-references-to-arrays',
+                },
+                {
+                  text: 'Slice literals',
+                  link: '/basics/slice-literals',
+                },
+                {
+                  text: 'Slice defaults',
+                  link: '/basics/slice-defaults',
+                },
+                {
+                  text: 'Slice length and capacity',
+                  link: '/basics/slice-length-and-capacity',
+                },
+                {
+                  text: 'Nil slices',
+                  link: '/basics/nil-slices',
+                },
+                {
+                  text: 'Creating a slice with make',
+                  link: '/basics/creating-a-slice-with-make',
+                },
+                {
+                  text: 'Slices of slices',
+                  link: '/basics/slices-of-slices',
+                },
+                {
+                  text: 'Appending to a slice',
+                  link: '/basics/appending-to-a-slice',
+                },
+                {
+                  text: 'Range',
+                  link: '/basics/range',
+                },
+                {
+                  text: 'Range continued',
+                  link: '/basics/range-continued',
+                },
+                {
+                  text: 'Maps',
+                  link: '/basics/maps',
+                },
+                {
+                  text: 'Map literals',
+                  link: '/basics/map-literals',
+                },
+                {
+                  text: 'Map literals continued',
+                  link: '/basics/map-literals-continued',
+                },
+                {
+                  text: 'Mutating Maps',
+                  link: '/basics/mutating-maps',
+                },
+                {
+                  text: 'Function values',
+                  link: '/basics/function-values',
+                },
+                {
+                  text: 'Function closures',
+                  link: '/basics/function-closures',
+                },
+              ],
+            },
           ],
         },
       ],
