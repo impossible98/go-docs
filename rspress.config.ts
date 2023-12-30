@@ -147,6 +147,10 @@ export default defineConfig({
                   text: 'Defer',
                   link: '/basics/defer',
                 },
+                {
+                  text: 'Stacking defers',
+                  link: '/basics/stacking-defers',
+                },
               ],
             },
           ],
