@@ -126,6 +126,11 @@ export default defineConfig({
                   text: 'If with a short statement',
                   link: '/basics/if-with-a-short-statement',
                 },
+
+                {
+                  text: 'If and else',
+                  link: '/basics/if-and-else',
+                },
               ],
             },
           ],
