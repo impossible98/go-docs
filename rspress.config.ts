@@ -87,6 +87,10 @@ export default defineConfig({
                   text: 'Type inference',
                   link: '/basics/type-inference',
                 },
+                {
+                  text: 'Constants',
+                  link: '/basics/constants',
+                },
               ],
             },
           ],
