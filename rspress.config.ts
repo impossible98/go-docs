@@ -113,6 +113,10 @@ export default defineConfig({
                   text: 'For is Go\'s "while"',
                   link: '/basics/for-is-gos-while',
                 },
+                {
+                  text: 'Forever',
+                  link: '/basics/forever',
+                },
               ],
             },
           ],
