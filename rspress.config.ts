@@ -117,6 +117,11 @@ export default defineConfig({
                   text: 'Forever',
                   link: '/basics/forever',
                 },
+
+                {
+                  text: 'If',
+                  link: '/basics/if',
+                },
               ],
             },
           ],
