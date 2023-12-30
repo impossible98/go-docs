@@ -252,6 +252,96 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: 'Methods and interfaces',
+          items: [
+            {
+              text: 'Methods and interfaces',
+              items: [
+                {
+                  text: 'Methods',
+                  link: '/methods-and-interfaces/methods',
+                },
+                {
+                  text: 'Methods are functions',
+                  link: '/methods-and-interfaces/methods-are-functions',
+                },
+                {
+                  text: 'Methods continued',
+                  link: '/methods-and-interfaces/methods-continued',
+                },
+                {
+                  text: 'Pointer receivers',
+                  link: '/methods-and-interfaces/pointer-receivers',
+                },
+                {
+                  text: 'Pointers and functions',
+                  link: '/methods-and-interfaces/pointers-and-functions',
+                },
+                {
+                  text: 'Methods and pointer indirection',
+                  link: '/methods-and-interfaces/methods-and-pointer-indirection',
+                },
+                {
+                  text: 'Methods and pointer indirection (2)',
+                  link: '/methods-and-interfaces/methods-and-pointer-indirection-2',
+                },
+                {
+                  text: 'Choosing a value or pointer receiver',
+                  link: '/methods-and-interfaces/choosing-a-value-or-pointer-receiver',
+                },
+                {
+                  text: 'Interfaces',
+                  link: '/methods-and-interfaces/interfaces',
+                },
+                {
+                  text: 'Interfaces are implemented implicitly',
+                  link: '/methods-and-interfaces/interfaces-are-implemented-implicitly',
+                },
+                {
+                  text: 'Interface values',
+                  link: '/methods-and-interfaces/interface-values',
+                },
+                {
+                  text: 'Interface values with nil underlying values',
+                  link: '/methods-and-interfaces/interface-values-with-nil-underlying-values',
+                },
+                {
+                  text: 'Nil interface values',
+                  link: '/methods-and-interfaces/nil-interface-values',
+                },
+                {
+                  text: 'The empty interface',
+                  link: '/methods-and-interfaces/the-empty-interface',
+                },
+                {
+                  text: 'Type assertions',
+                  link: '/methods-and-interfaces/type-assertions',
+                },
+                {
+                  text: 'Type switches',
+                  link: '/methods-and-interfaces/type-switches',
+                },
+                {
+                  text: 'Stringers',
+                  link: '/methods-and-interfaces/stringers',
+                },
+                {
+                  text: 'Errors',
+                  link: '/methods-and-interfaces/errors',
+                },
+                {
+                  text: 'Readers',
+                  link: '/methods-and-interfaces/readers',
+                },
+                {
+                  text: 'Images',
+                  link: '/methods-and-interfaces/images',
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
