@@ -104,6 +104,11 @@ export default defineConfig({
                   text: 'For',
                   link: '/basics/for',
                 },
+
+                {
+                  text: 'For continued',
+                  link: '/basics/for-continued',
+                },
               ],
             },
           ],
