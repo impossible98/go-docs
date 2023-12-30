@@ -109,6 +109,10 @@ export default defineConfig({
                   text: 'For continued',
                   link: '/basics/for-continued',
                 },
+                {
+                  text: 'For is Go\'s "while"',
+                  link: '/basics/for-is-gos-while',
+                },
               ],
             },
           ],
