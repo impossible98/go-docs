@@ -74,6 +74,10 @@ export default defineConfig({
                   text: 'Basic types',
                   link: '/basics/basic-types',
                 },
+                {
+                  text: 'Zero values',
+                  link: '/basics/zero-values',
+                },
               ],
             },
           ],
