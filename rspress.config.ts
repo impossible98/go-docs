@@ -122,6 +122,10 @@ export default defineConfig({
                   text: 'If',
                   link: '/basics/if',
                 },
+                {
+                  text: 'If with a short statement',
+                  link: '/basics/if-with-a-short-statement',
+                },
               ],
             },
           ],
