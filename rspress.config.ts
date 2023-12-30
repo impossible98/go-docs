@@ -131,6 +131,10 @@ export default defineConfig({
                   text: 'If and else',
                   link: '/basics/if-and-else',
                 },
+                {
+                  text: 'Switch',
+                  link: '/basics/switch',
+                },
               ],
             },
           ],
