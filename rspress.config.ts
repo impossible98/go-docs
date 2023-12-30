@@ -82,6 +82,11 @@ export default defineConfig({
                   text: 'Type conversions',
                   link: '/basics/type-conversions',
                 },
+
+                {
+                  text: 'Type inference',
+                  link: '/basics/type-inference',
+                },
               ],
             },
           ],
