@@ -91,6 +91,10 @@ export default defineConfig({
                   text: 'Constants',
                   link: '/basics/constants',
                 },
+                {
+                  text: 'Numeric Constants',
+                  link: '/basics/numeric-constants',
+                },
               ],
             },
           ],
