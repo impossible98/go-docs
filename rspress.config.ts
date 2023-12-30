@@ -70,6 +70,10 @@ export default defineConfig({
                   text: 'Short variable declarations',
                   link: '/basics/short-variable-declarations',
                 },
+                {
+                  text: 'Basic types',
+                  link: '/basics/basic-types',
+                },
               ],
             },
           ],
