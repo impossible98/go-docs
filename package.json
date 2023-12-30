@@ -1,10 +1,10 @@
 {
-  "name": "rspress-doc-template",
-  "version": "1.0.0",
+  "name": "go-docs",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rspress dev",
     "build": "rspress build",
+    "dev": "rspress dev",
     "format": "prettier . --write --cache",
     "prepare": "husky install",
     "preview": "rspress preview"
