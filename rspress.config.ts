@@ -97,6 +97,15 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: 'Flow control statements: for, if, else, switch and defer',
+              items: [
+                {
+                  text: 'For',
+                  link: '/basics/for',
+                },
+              ],
+            },
           ],
         },
       ],
