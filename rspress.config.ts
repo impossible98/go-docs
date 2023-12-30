@@ -342,6 +342,24 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: 'Generics',
+          items: [
+            {
+              text: 'Generics',
+              items: [
+                {
+                  text: 'Type parameters',
+                  link: '/generics/type-parameters',
+                },
+                {
+                  text: 'Generic types',
+                  link: '/generics/generic-types',
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
