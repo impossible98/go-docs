@@ -139,6 +139,10 @@ export default defineConfig({
                   text: 'Switch evaluation order',
                   link: '/basics/switch-evaluation-order',
                 },
+                {
+                  text: 'Switch with no condition',
+                  link: '/basics/switch-with-no-condition',
+                },
               ],
             },
           ],
