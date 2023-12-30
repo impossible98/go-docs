@@ -143,6 +143,10 @@ export default defineConfig({
                   text: 'Switch with no condition',
                   link: '/basics/switch-with-no-condition',
                 },
+                {
+                  text: 'Defer',
+                  link: '/basics/defer',
+                },
               ],
             },
           ],
