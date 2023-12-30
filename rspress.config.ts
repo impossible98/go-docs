@@ -360,6 +360,44 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: 'Concurrency',
+          items: [
+            {
+              text: 'Concurrency',
+              items: [
+                {
+                  text: 'Goroutines',
+                  link: '/concurrency/goroutines',
+                },
+                {
+                  text: 'Channels',
+                  link: '/concurrency/channels',
+                },
+                {
+                  text: 'Buffered Channels',
+                  link: '/concurrency/buffered-channels',
+                },
+                {
+                  text: 'Range and Close',
+                  link: '/concurrency/range-and-close',
+                },
+                {
+                  text: 'Select',
+                  link: '/concurrency/select',
+                },
+                {
+                  text: 'Default Selection',
+                  link: '/concurrency/default-selection',
+                },
+                {
+                  text: 'sync.Mutex',
+                  link: '/concurrency/sync-mutex',
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
