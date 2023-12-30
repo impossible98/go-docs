@@ -135,6 +135,10 @@ export default defineConfig({
                   text: 'Switch',
                   link: '/basics/switch',
                 },
+                {
+                  text: 'Switch evaluation order',
+                  link: '/basics/switch-evaluation-order',
+                },
               ],
             },
           ],
