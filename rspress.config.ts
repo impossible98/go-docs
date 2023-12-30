@@ -7,12 +7,10 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'Go',
   description: 'About Go',
-  icon: '/rspress-icon.png',
-  logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
-  },
+  icon: '/favicon.ico',
+  logo: '/go-logo.webp',
   themeConfig: {
+    lastUpdated: true,
     sidebar: {
       '/': [
         {
