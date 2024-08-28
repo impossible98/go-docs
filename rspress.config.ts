@@ -15,6 +15,7 @@ export default defineConfig({
   logoText: 'Go',
   markdown: {
     checkDeadLinks: true,
+    showLineNumbers: true,
   },
   themeConfig: {
     lastUpdated: true,
@@ -27,6 +28,10 @@ export default defineConfig({
     },
     hideNavbar: 'auto',
     enableScrollToTop: true,
+    nav: [
+      { text: 'STD', link: '/index' },
+      { text: 'SRC', link: '/code/bufio/bufio' },
+    ],
     sidebar: {
       '/': [
         {
@@ -36,6 +41,22 @@ export default defineConfig({
         {
           text: 'bufio',
           link: '/bufio',
+        },
+      ],
+      '/code/': [
+        {
+          text: 'bufio',
+          collapsed: true,
+          items: [
+            {
+              text: 'bufio.go',
+              link: '/code/bufio/bufio',
+            },
+            {
+              text: 'scan.go',
+              link: '/code/bufio/scan',
+            },
+          ],
         },
       ],
     },
