@@ -46,6 +46,10 @@ export default defineConfig({
               text: 'tar',
               link: '/archive/tar',
             },
+            {
+              text: 'zip',
+              link: '/archive/zip',
+            },
           ],
         },
         {
@@ -89,6 +93,28 @@ export default defineConfig({
                 {
                   text: 'writer.go',
                   link: '/code/archive/tar/writer',
+                },
+              ],
+            },
+            {
+              text: 'zip',
+              collapsible: false,
+              items: [
+                {
+                  text: 'reader.go',
+                  link: '/code/archive/zip/reader',
+                },
+                {
+                  text: 'register.go',
+                  link: '/code/archive/zip/register',
+                },
+                {
+                  text: 'struct.go',
+                  link: '/code/archive/zip/struct',
+                },
+                {
+                  text: 'writer.go',
+                  link: '/code/archive/zip/writer',
                 },
               ],
             },
