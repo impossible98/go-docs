@@ -64,6 +64,10 @@ export default defineConfig({
           text: 'bytes',
           link: '/bytes',
         },
+        {
+          text: 'context',
+          link: '/context',
+        },
       ],
       '/code/': [
         {
@@ -167,6 +171,16 @@ export default defineConfig({
             {
               text: 'reader.go',
               link: '/code/bytes/reader',
+            },
+          ],
+        },
+        {
+          text: 'context',
+          collapsible: false,
+          items: [
+            {
+              text: 'context.go',
+              link: '/code/context/context',
             },
           ],
         },
