@@ -84,6 +84,10 @@ export default defineConfig({
           text: 'flag',
           link: '/flag',
         },
+        {
+          text: 'fmt',
+          link: '/fmt',
+        },
       ],
       '/code/': [
         {
@@ -241,6 +245,32 @@ export default defineConfig({
             {
               text: 'flag.go',
               link: '/code/flag/flag',
+            },
+          ],
+        },
+        {
+          text: 'fmt',
+          collapsible: false,
+          items: [
+            {
+              text: 'fmt.go',
+              link: '/code/fmt/doc',
+            },
+            {
+              text: 'errors.go',
+              link: '/code/fmt/errors',
+            },
+            {
+              text: 'format.go',
+              link: '/code/fmt/format',
+            },
+            {
+              text: 'print.go',
+              link: '/code/fmt/print',
+            },
+            {
+              text: 'scan.go',
+              link: '/code/fmt/scan',
             },
           ],
         },
