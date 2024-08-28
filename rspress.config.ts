@@ -104,6 +104,10 @@ export default defineConfig({
           text: 'strings',
           link: '/strings',
         },
+        {
+          text: 'unsafe',
+          link: '/unsafe',
+        },
       ],
       '/code/': [
         {
@@ -427,6 +431,16 @@ export default defineConfig({
             {
               text: 'strings.go',
               link: '/code/strings/strings',
+            },
+          ],
+        },
+        {
+          text: 'unsafe',
+          collapsible: false,
+          items: [
+            {
+              text: 'unsafe.go',
+              link: '/code/unsafe/unsafe',
             },
           ],
         },
