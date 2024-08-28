@@ -88,6 +88,10 @@ export default defineConfig({
           text: 'fmt',
           link: '/fmt',
         },
+        {
+          text: 'plugin',
+          link: '/plugin',
+        },
       ],
       '/code/': [
         {
@@ -271,6 +275,20 @@ export default defineConfig({
             {
               text: 'scan.go',
               link: '/code/fmt/scan',
+            },
+          ],
+        },
+        {
+          text: 'plugin',
+          collapsible: false,
+          items: [
+            {
+              text: 'plugin.go',
+              link: '/code/plugin/plugin',
+            },
+            {
+              text: 'plugin_dlopen.go',
+              link: '/code/plugin/plugin_dlopen',
             },
           ],
         },
