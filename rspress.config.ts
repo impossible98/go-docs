@@ -96,6 +96,10 @@ export default defineConfig({
           text: 'sort',
           link: '/sort',
         },
+        {
+          text: 'strconv',
+          link: '/strconv',
+        },
       ],
       '/code/': [
         {
@@ -323,6 +327,68 @@ export default defineConfig({
             {
               text: 'zsortinterface.go',
               link: '/code/sort/zsortinterface',
+            },
+          ],
+        },
+        {
+          text: 'strconv',
+          collapsible: false,
+          items: [
+            {
+              text: 'atob.go',
+              link: '/code/strconv/atob',
+            },
+            {
+              text: 'atoc.go',
+              link: '/code/strconv/atoc',
+            },
+            {
+              text: 'atof.go',
+              link: '/code/strconv/atof',
+            },
+            {
+              text: 'atoi.go',
+              link: '/code/strconv/atoi',
+            },
+            {
+              text: 'bytealg.go',
+              link: '/code/strconv/bytealg',
+            },
+            {
+              text: 'ctoa.go',
+              link: '/code/strconv/ctoa',
+            },
+            {
+              text: 'decimal.go',
+              link: '/code/strconv/decimal',
+            },
+            {
+              text: 'doc.go',
+              link: '/code/strconv/doc',
+            },
+            {
+              text: 'eisel_lemire.go',
+              link: '/code/strconv/eisel_lemire',
+            },
+            {
+              text: 'ftoa.go',
+              link: '/code/strconv/ftoa',
+            },
+            {
+              text: 'ftoaryu.go',
+              link: '/code/strconv/ftoaryu',
+            },
+            {
+              text: 'isprint.go',
+              link: '/code/strconv/isprint',
+            },
+            {
+              text: 'itoa.go',
+              link: '/code/strconv/itoa',
+            },
+            {
+              text: 'quote.go',
+              link: '/code/strconv/quote',
             },
           ],
         },
