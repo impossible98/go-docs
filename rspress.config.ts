@@ -68,6 +68,10 @@ export default defineConfig({
           text: 'context',
           link: '/context',
         },
+        {
+          text: 'embed',
+          link: '/embed',
+        },
       ],
       '/code/': [
         {
@@ -181,6 +185,16 @@ export default defineConfig({
             {
               text: 'context.go',
               link: '/code/context/context',
+            },
+          ],
+        },
+        {
+          text: 'embed',
+          collapsible: false,
+          items: [
+            {
+              text: 'embed.go',
+              link: '/code/embed/embed',
             },
           ],
         },
