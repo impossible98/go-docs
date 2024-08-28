@@ -60,6 +60,10 @@ export default defineConfig({
           text: 'builtin',
           link: '/builtin',
         },
+        {
+          text: 'bytes',
+          link: '/bytes',
+        },
       ],
       '/code/': [
         {
@@ -145,6 +149,24 @@ export default defineConfig({
             {
               text: 'builtin.go',
               link: '/code/builtin/builtin',
+            },
+          ],
+        },
+        {
+          text: 'bytes',
+          collapsible: false,
+          items: [
+            {
+              text: 'buffer.go',
+              link: '/code/bytes/buffer',
+            },
+            {
+              text: 'bytes.go',
+              link: '/code/bytes/bytes',
+            },
+            {
+              text: 'reader.go',
+              link: '/code/bytes/reader',
             },
           ],
         },
