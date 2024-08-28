@@ -56,6 +56,10 @@ export default defineConfig({
           text: 'bufio',
           link: '/bufio',
         },
+        {
+          text: 'builtin',
+          link: '/builtin',
+        },
       ],
       '/code/': [
         {
@@ -131,6 +135,16 @@ export default defineConfig({
             {
               text: 'scan.go',
               link: '/code/bufio/scan',
+            },
+          ],
+        },
+        {
+          text: 'builtin',
+          collapsible: false,
+          items: [
+            {
+              text: 'builtin.go',
+              link: '/code/builtin/builtin',
             },
           ],
         },
