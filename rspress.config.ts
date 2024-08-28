@@ -39,14 +39,64 @@ export default defineConfig({
           link: '/index',
         },
         {
+          text: 'archive',
+          collapsed: true,
+          items: [
+            {
+              text: 'tar',
+              link: '/archive/tar',
+            },
+          ],
+        },
+        {
           text: 'bufio',
           link: '/bufio',
         },
       ],
       '/code/': [
         {
+          text: 'archive',
+          collapsible: false,
+          items: [
+            {
+              text: 'tar',
+              collapsible: false,
+              items: [
+                {
+                  text: 'common.go',
+                  link: '/code/archive/tar/common',
+                },
+                {
+                  text: 'format.go',
+                  link: '/code/archive/tar/format',
+                },
+                {
+                  text: 'reader.go',
+                  link: '/code/archive/tar/reader',
+                },
+                {
+                  text: 'stat_actime1.go',
+                  link: '/code/archive/tar/stat_actime1',
+                },
+                {
+                  text: 'stat_unix.go',
+                  link: '/code/archive/tar/stat_unix',
+                },
+                {
+                  text: 'strconv.go',
+                  link: '/code/archive/tar/strconv',
+                },
+                {
+                  text: 'writer.go',
+                  link: '/code/archive/tar/writer',
+                },
+              ],
+            },
+          ],
+        },
+        {
           text: 'bufio',
-          collapsed: true,
+          collapsible: false,
           items: [
             {
               text: 'bufio.go',
