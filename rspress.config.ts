@@ -92,6 +92,10 @@ export default defineConfig({
           text: 'plugin',
           link: '/plugin',
         },
+        {
+          text: 'sort',
+          link: '/sort',
+        },
       ],
       '/code/': [
         {
@@ -289,6 +293,36 @@ export default defineConfig({
             {
               text: 'plugin_dlopen.go',
               link: '/code/plugin/plugin_dlopen',
+            },
+          ],
+        },
+        {
+          text: 'sort',
+          collapsible: false,
+          items: [
+            {
+              text: 'search.go',
+              link: '/code/sort/search',
+            },
+            {
+              text: 'slice.go',
+              link: '/code/sort/slice',
+            },
+            {
+              text: 'slice_go113.go',
+              link: '/code/sort/slice_go113',
+            },
+            {
+              text: 'sort.go',
+              link: '/code/sort/sort',
+            },
+            {
+              text: 'zsortfunc.go',
+              link: '/code/sort/zsortfunc',
+            },
+            {
+              text: 'zsortinterface.go',
+              link: '/code/sort/zsortinterface',
             },
           ],
         },
