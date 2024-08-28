@@ -13,6 +13,9 @@ export default defineConfig({
     dark: '/go-dark-logo.png',
   },
   logoText: 'Go',
+  head: [
+    `<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "nu8muyojsb");</script>`,
+  ],
   markdown: {
     checkDeadLinks: true,
     showLineNumbers: true,
@@ -20,7 +23,11 @@ export default defineConfig({
   themeConfig: {
     lastUpdated: true,
     socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/golang/go' },
+      {
+        icon: 'github',
+        mode: 'link',
+        content: 'https://github.com/golang/go',
+      },
     ],
     footer: {
       message:
@@ -71,6 +78,10 @@ export default defineConfig({
             {
               text: 'bzip2',
               link: '/compress/bzip2',
+            },
+            {
+              text: 'flate',
+              link: '/compress/flate',
             },
           ],
         },
@@ -247,6 +258,40 @@ export default defineConfig({
                 {
                   text: 'move_to_front.go',
                   link: '/code/compress/bzip2/move_to_front',
+                },
+              ],
+            },
+            {
+              text: 'flate',
+              collapsible: false,
+              items: [
+                {
+                  text: 'deflate.go',
+                  link: '/code/compress/flate/deflate',
+                },
+                {
+                  text: 'deflatefast.go',
+                  link: '/code/compress/flate/deflatefast',
+                },
+                {
+                  text: 'dict_decoder.go',
+                  link: '/code/compress/flate/dict_decoder',
+                },
+                {
+                  text: 'huffman_bit_writer.go',
+                  link: '/code/compress/flate/huffman_bit_writer',
+                },
+                {
+                  text: 'huffman_code.go',
+                  link: '/code/compress/flate/huffman_code',
+                },
+                {
+                  text: 'inflate.go',
+                  link: '/code/compress/flate/inflate',
+                },
+                {
+                  text: 'token.go',
+                  link: '/code/compress/flate/token',
                 },
               ],
             },
