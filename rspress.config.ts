@@ -80,6 +80,10 @@ export default defineConfig({
           text: 'expvar',
           link: '/expvar',
         },
+        {
+          text: 'flag',
+          link: '/flag',
+        },
       ],
       '/code/': [
         {
@@ -227,6 +231,16 @@ export default defineConfig({
             {
               text: 'expvar.go',
               link: '/code/expvar/expvar',
+            },
+          ],
+        },
+        {
+          text: 'flag',
+          collapsible: false,
+          items: [
+            {
+              text: 'flag.go',
+              link: '/code/flag/flag',
             },
           ],
         },
