@@ -76,6 +76,10 @@ export default defineConfig({
           text: 'errors',
           link: '/errors',
         },
+        {
+          text: 'expvar',
+          link: '/expvar',
+        },
       ],
       '/code/': [
         {
@@ -213,6 +217,16 @@ export default defineConfig({
             {
               text: 'wrap.go',
               link: '/code/errors/wrap',
+            },
+          ],
+        },
+        {
+          text: 'expvar',
+          collapsible: false,
+          items: [
+            {
+              text: 'expvar.go',
+              link: '/code/expvar/expvar',
             },
           ],
         },
