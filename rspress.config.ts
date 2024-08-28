@@ -100,6 +100,10 @@ export default defineConfig({
           text: 'strconv',
           link: '/strconv',
         },
+        {
+          text: 'strings',
+          link: '/strings',
+        },
       ],
       '/code/': [
         {
@@ -389,6 +393,40 @@ export default defineConfig({
             {
               text: 'quote.go',
               link: '/code/strconv/quote',
+            },
+          ],
+        },
+        {
+          text: 'strings',
+          collapsible: false,
+          items: [
+            {
+              text: 'builder.go',
+              link: '/code/strings/builder',
+            },
+            {
+              text: 'clone.go',
+              link: '/code/strings/clone',
+            },
+            {
+              text: 'compare.go',
+              link: '/code/strings/compare',
+            },
+            {
+              text: 'reader.go',
+              link: '/code/strings/reader',
+            },
+            {
+              text: 'replace.go',
+              link: '/code/strings/replace',
+            },
+            {
+              text: 'search.go',
+              link: '/code/strings/search',
+            },
+            {
+              text: 'strings.go',
+              link: '/code/strings/strings',
             },
           ],
         },
