@@ -72,6 +72,10 @@ export default defineConfig({
           text: 'embed',
           link: '/embed',
         },
+        {
+          text: 'errors',
+          link: '/errors',
+        },
       ],
       '/code/': [
         {
@@ -195,6 +199,20 @@ export default defineConfig({
             {
               text: 'embed.go',
               link: '/code/embed/embed',
+            },
+          ],
+        },
+        {
+          text: 'errors',
+          collapsible: false,
+          items: [
+            {
+              text: 'errors.go',
+              link: '/code/errors/errors',
+            },
+            {
+              text: 'wrap.go',
+              link: '/code/errors/wrap',
             },
           ],
         },
