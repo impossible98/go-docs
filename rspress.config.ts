@@ -7,10 +7,10 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'Go',
   description: 'About Go',
-  icon: '/rspress-icon.png',
+  icon: '/favicon.png',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/go-light-logo.png',
+    dark: '/go-dark-logo.png',
   },
   logoText: 'Go',
   markdown: {
@@ -63,6 +63,16 @@ export default defineConfig({
         {
           text: 'bytes',
           link: '/bytes',
+        },
+        {
+          text: 'compress',
+          collapsed: true,
+          items: [
+            {
+              text: 'bzip2',
+              link: '/compress/bzip2',
+            },
+          ],
         },
         {
           text: 'context',
@@ -211,6 +221,34 @@ export default defineConfig({
             {
               text: 'reader.go',
               link: '/code/bytes/reader',
+            },
+          ],
+        },
+        {
+          text: 'compress',
+          collapsible: false,
+          items: [
+            {
+              text: 'bzip2',
+              collapsible: false,
+              items: [
+                {
+                  text: 'bit_reader.go',
+                  link: '/code/compress/bzip2/bit_reader',
+                },
+                {
+                  text: 'bzip2.go',
+                  link: '/code/compress/bzip2/bzip2',
+                },
+                {
+                  text: 'huffman.go',
+                  link: '/code/compress/bzip2/huffman',
+                },
+                {
+                  text: 'move_to_front.go',
+                  link: '/code/compress/bzip2/move_to_front',
+                },
+              ],
             },
           ],
         },
