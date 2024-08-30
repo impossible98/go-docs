@@ -120,6 +120,10 @@ export default defineConfig({
           link: '/context',
         },
         {
+          text: 'crypto',
+          link: '/crypto',
+        },
+        {
           text: 'embed',
           link: '/embed',
         },
@@ -412,6 +416,16 @@ export default defineConfig({
             {
               text: 'context.go',
               link: '/code/context/context',
+            },
+          ],
+        },
+        {
+          text: 'crypto',
+          collapsible: false,
+          items: [
+            {
+              text: 'crypto.go',
+              link: '/code/crypto/crypto',
             },
           ],
         },
