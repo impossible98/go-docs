@@ -109,6 +109,10 @@ export default defineConfig({
               text: 'list',
               link: '/container/list',
             },
+            {
+              text: 'ring',
+              link: '/container/ring',
+            },
           ],
         },
         {
@@ -386,6 +390,16 @@ export default defineConfig({
                 {
                   text: 'list.go',
                   link: '/code/container/list/list',
+                },
+              ],
+            },
+            {
+              text: 'ring',
+              collapsible: false,
+              items: [
+                {
+                  text: 'ring.go',
+                  link: '/code/container/ring/ring',
                 },
               ],
             },
