@@ -37,7 +37,7 @@ export default defineConfig({
     enableScrollToTop: true,
     nav: [
       { text: 'STD', link: '/index' },
-      { text: 'SRC', link: '/code/bufio/bufio' },
+      { text: 'SRC', link: '/code/archive/tar/common' },
     ],
     sidebar: {
       '/': [
@@ -121,7 +121,14 @@ export default defineConfig({
         },
         {
           text: 'crypto',
+          collapsed: true,
           link: '/crypto',
+          items: [
+            {
+              text: 'aes',
+              link: '/crypto/aes',
+            },
+          ],
         },
         {
           text: 'embed',
@@ -426,6 +433,36 @@ export default defineConfig({
             {
               text: 'crypto.go',
               link: '/code/crypto/crypto',
+            },
+            {
+              text: 'aes',
+              collapsible: false,
+              items: [
+                {
+                  text: 'aes_gcm.go',
+                  link: '/code/crypto/aes/aes_gcm',
+                },
+                {
+                  text: 'block.go',
+                  link: '/code/crypto/aes/block',
+                },
+                {
+                  text: 'cipher.go',
+                  link: '/code/crypto/aes/cipher',
+                },
+                {
+                  text: 'cipher_asm.go',
+                  link: '/code/crypto/aes/cipher_asm',
+                },
+                {
+                  text: 'const.go',
+                  link: '/code/crypto/aes/const',
+                },
+                {
+                  text: 'modes.go',
+                  link: '/code/crypto/aes/modes',
+                },
+              ],
             },
           ],
         },
