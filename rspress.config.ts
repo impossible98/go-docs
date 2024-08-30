@@ -98,6 +98,16 @@ export default defineConfig({
           ],
         },
         {
+          text: 'container',
+          collapsed: true,
+          items: [
+            {
+              text: 'heap',
+              link: '/container/heap',
+            },
+          ],
+        },
+        {
           text: 'context',
           link: '/context',
         },
@@ -346,6 +356,22 @@ export default defineConfig({
                 {
                   text: 'writer.go',
                   link: '/code/compress/zlib/writer',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          text: 'container',
+          collapsible: false,
+          items: [
+            {
+              text: 'heap',
+              collapsible: false,
+              items: [
+                {
+                  text: 'heap.go',
+                  link: '/code/container/heap/heap',
                 },
               ],
             },
