@@ -87,6 +87,10 @@ export default defineConfig({
               text: 'gzip',
               link: '/compress/gzip',
             },
+            {
+              text: 'lzw',
+              link: '/compress/lzw',
+            },
           ],
         },
         {
@@ -310,6 +314,20 @@ export default defineConfig({
                 {
                   text: 'gzip.go',
                   link: '/code/compress/gzip/gzip',
+                },
+              ],
+            },
+            {
+              text: 'lzw',
+              collapsible: false,
+              items: [
+                {
+                  text: 'reader.go',
+                  link: '/code/compress/lzw/reader',
+                },
+                {
+                  text: 'writer.go',
+                  link: '/code/compress/lzw/writer',
                 },
               ],
             },
