@@ -83,6 +83,10 @@ export default defineConfig({
               text: 'flate',
               link: '/compress/flate',
             },
+            {
+              text: 'gzip',
+              link: '/compress/gzip',
+            },
           ],
         },
         {
@@ -292,6 +296,20 @@ export default defineConfig({
                 {
                   text: 'token.go',
                   link: '/code/compress/flate/token',
+                },
+              ],
+            },
+            {
+              text: 'gzip',
+              collapsible: false,
+              items: [
+                {
+                  text: 'gunzip.go',
+                  link: '/code/compress/gzip/gunzip',
+                },
+                {
+                  text: 'gzip.go',
+                  link: '/code/compress/gzip/gzip',
                 },
               ],
             },
