@@ -105,6 +105,10 @@ export default defineConfig({
               text: 'heap',
               link: '/container/heap',
             },
+            {
+              text: 'list',
+              link: '/container/list',
+            },
           ],
         },
         {
@@ -372,6 +376,16 @@ export default defineConfig({
                 {
                   text: 'heap.go',
                   link: '/code/container/heap/heap',
+                },
+              ],
+            },
+            {
+              text: 'list',
+              collapsible: false,
+              items: [
+                {
+                  text: 'list.go',
+                  link: '/code/container/list/list',
                 },
               ],
             },
