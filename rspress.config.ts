@@ -91,6 +91,10 @@ export default defineConfig({
               text: 'lzw',
               link: '/compress/lzw',
             },
+            {
+              text: 'zlib',
+              link: '/compress/zlib',
+            },
           ],
         },
         {
@@ -328,6 +332,20 @@ export default defineConfig({
                 {
                   text: 'writer.go',
                   link: '/code/compress/lzw/writer',
+                },
+              ],
+            },
+            {
+              text: 'zlib',
+              collapsible: false,
+              items: [
+                {
+                  text: 'reader.go',
+                  link: '/code/compress/zlib/reader',
+                },
+                {
+                  text: 'writer.go',
+                  link: '/code/compress/zlib/writer',
                 },
               ],
             },
