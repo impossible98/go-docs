@@ -132,6 +132,10 @@ export default defineConfig({
               text: 'cipher',
               link: '/crypto/cipher',
             },
+            {
+              text: 'des',
+              link: '/crypto/des',
+            },
           ],
         },
         {
@@ -469,7 +473,7 @@ export default defineConfig({
               ],
             },
             {
-              text: 'cipher.go',
+              text: 'cipher',
               collapsible: false,
               items: [
                 {
@@ -503,6 +507,24 @@ export default defineConfig({
                 {
                   text: 'xor_amd64.go',
                   link: '/code/crypto/cipher/xor_amd64',
+                },
+              ],
+            },
+            {
+              text: 'des',
+              collapsible: false,
+              items: [
+                {
+                  text: 'block.go',
+                  link: '/code/crypto/des/block',
+                },
+                {
+                  text: 'cipher.go',
+                  link: '/code/crypto/des/cipher',
+                },
+                {
+                  text: 'const.go',
+                  link: '/code/crypto/des/const',
                 },
               ],
             },
