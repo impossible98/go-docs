@@ -128,6 +128,10 @@ export default defineConfig({
               text: 'aes',
               link: '/crypto/aes',
             },
+            {
+              text: 'cipher',
+              link: '/crypto/cipher',
+            },
           ],
         },
         {
@@ -461,6 +465,44 @@ export default defineConfig({
                 {
                   text: 'modes.go',
                   link: '/code/crypto/aes/modes',
+                },
+              ],
+            },
+            {
+              text: 'cipher.go',
+              collapsible: false,
+              items: [
+                {
+                  text: 'cbc.go',
+                  link: '/code/crypto/cipher/cbc',
+                },
+                {
+                  text: 'cfb.go',
+                  link: '/code/crypto/cipher/cfb',
+                },
+                {
+                  text: 'cipher.go',
+                  link: '/code/crypto/cipher/cipher',
+                },
+                {
+                  text: 'ctr.go',
+                  link: '/code/crypto/cipher/ctr',
+                },
+                {
+                  text: 'gcm.go',
+                  link: '/code/crypto/cipher/gcm',
+                },
+                {
+                  text: 'io.go',
+                  link: '/code/crypto/cipher/io',
+                },
+                {
+                  text: 'ofb.go',
+                  link: '/code/crypto/cipher/ofb',
+                },
+                {
+                  text: 'xor_amd64.go',
+                  link: '/code/crypto/cipher/xor_amd64',
                 },
               ],
             },
