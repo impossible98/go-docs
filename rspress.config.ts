@@ -136,6 +136,10 @@ export default defineConfig({
               text: 'des',
               link: '/crypto/des',
             },
+            {
+              text: 'dsa',
+              link: '/crypto/dsa',
+            },
           ],
         },
         {
@@ -525,6 +529,16 @@ export default defineConfig({
                 {
                   text: 'const.go',
                   link: '/code/crypto/des/const',
+                },
+              ],
+            },
+            {
+              text: 'dsa',
+              collapsible: false,
+              items: [
+                {
+                  text: 'dsa.go',
+                  link: '/code/crypto/dsa/dsa',
                 },
               ],
             },
